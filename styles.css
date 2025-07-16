@@ -1,0 +1,232 @@
+    .attribution { 
+        font-size: 11px;
+         text-align: center;
+          margin-top: 1rem;
+        }
+    .attribution a { 
+        color: var(--font-color2);
+        font-weight: 800;
+     }
+    :root {
+      --font-color1:hsl(0, 0%, 100%);
+      --font-color2:hsl(14, 45%, 36%);
+      --time-menu-color1:hsl(332, 51%, 32%);
+      --time-menu-color2:hsl(330, 100%, 98%);
+      --color1:hsl(30, 54%, 90%);
+      --color2:hsl(30, 18%, 87%);
+      --color3:hsl(30, 10%, 34%);
+      --color4:hsl(24, 5%, 18%);
+    }
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: var(--color1);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    .container{
+      width: 440px;
+      height: 1020px;
+      background-color: var(--font-color1);
+      border-radius: 0.7rem;
+      padding: 0 25px 0 25px;
+    }
+    img{
+      width: 390px;
+      margin-top: 25px;
+    border-radius: 0.5rem;
+    }
+    h1{
+      font-size: 1.5rem;
+      font-family: "Young serif",serif;
+      color: var(--color4);
+      font-weight: 100;
+      margin: 0.7rem 0;
+    }
+    p {
+      font-size: 0.61rem;
+      margin-bottom: 0.7rem;
+      color: var(--color3);
+      line-height: 1rem;
+      font-family: "Outfit",sans-serif;
+    }
+    .preparation-time {
+      background-color: var(--time-menu-color2);
+      width: 390px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px 0 20px 20px;
+      border-radius: 0.5rem;
+      font-family: "Outfit", sans-serif;
+    }
+    .preparation-time h3 {
+      font-size: 0.75rem;
+      color: var(--time-menu-color1);
+      font-family: "Outfit", sans-serif;
+    }
+    .list-1{
+      padding-left: 20px;
+      font-size: 0.62rem;
+      color: var(--color3);
+    }
+    .list-1 li {
+      margin: 5px 5px;
+      padding-left: 15px;
+    }
+    ul li::marker {
+      font-size: 0.7em;
+    }
+    h2 {
+      color: var(--font-color2);
+      margin: 0.7rem 0;
+      font-size: 1.2rem;
+    }
+    .list-2 {
+      padding-left: 10px;
+      font-size: 0.60rem;
+      color: var(--color3);
+      line-height: 1rem;
+      font-family: "Outfit", sans-serif;
+    }
+     .list-2 li {
+      margin: 5px 5px;
+      padding-left: 15px;
+    }
+    .main-hr {
+      height: 1px;           
+      background-color: var(--color1);
+      border: none;          
+      margin: 20px 0;       
+    }
+     .list-3 {
+      padding-left: 10px;
+      font-size: 0.60rem;
+      color: var(--color3);
+      font-family: "Outfit", sans-serif;
+    }
+     .list-3 li {
+      margin: 5px 5px;
+      padding-left: 15px;
+    }
+    .list-3 li::marker{
+      color: var(--font-color2);
+      font-weight: 800;
+    }
+    .value{
+      color: var(--font-color2);
+      font-weight: 800;
+    }
+    .nutrition-row{
+       display: grid;
+       grid-template-columns: 1fr 0.9fr;
+       padding: 8px 0;
+       font-family: "Outfit",sans-serif;
+       font-size: 0.59rem;
+       
+       max-width: 350px;
+       margin: 0 auto;
+    }
+    .label{
+      color: var(--color3);
+    }
+     .table-hr {
+      height: 0.1px;           
+      background-color: var(--color1);
+      border: none;          
+      margin: 2px 0;       
+    }
+
+    @media screen and (max-width:480px) {
+            .attribution { 
+          font-size: 10px;
+          margin-top: 0.2rem;
+        }
+    .container{
+      width: 230px;
+      height: 1217px;
+      border-radius: 0;
+      padding: 0;
+    }
+    img{
+      width: 230px;
+      margin-top: 0;
+      border-radius: 0;
+    }
+    h1{
+      font-size: 1.38rem;
+      margin: 0.5rem 0rem 1rem 1rem;
+      line-height: 1.5rem;
+    }
+    p {
+      font-size: 0.60rem;
+      margin: 0.5rem 1.5rem 1rem 1rem;
+    }
+    .preparation-time {
+      width: 190px;
+      margin-left: 20px;
+      height: 120px;
+      padding: 0 20px ;
+    }
+    .preparation-time h3 {
+      font-size: 0.70rem;
+    }
+    .list-1{
+      padding-left: 20px;
+      font-size: 0.59rem;
+      color: var(--color3);
+    }
+    .list-1 li {
+      margin: 10px 10px;
+      padding-left: 0px;
+    }
+    h2 {
+      margin: 1rem;
+      font-size: 1.2rem;
+    }
+    .list-2 {
+      margin: 0 1rem;
+    }
+     .list-2 li {
+      margin: 5px 5px;
+      padding-left: 10px;
+    }
+    .main-hr {
+    width: 190px;
+    margin-left: 20px;       
+    }
+     .list-3 {
+      margin: 0 1rem;
+    }
+     .list-3 li {
+      margin: 5px 5px;
+      padding-left: 15px;
+    }
+    .nutrition-row{
+       display: grid;
+       grid-template-columns: 1fr 0.9fr;
+       padding: 8px 0;
+       font-family: "Outfit",sans-serif;
+       font-size: 0.59rem;
+       max-width: 350px;
+       margin: 0 30px;
+    }
+     .table-hr {
+      width: 190px;
+    margin-left: 20px;         
+    }
+    .nutrition-paragraph{
+        margin-right: 0.3rem;
+    }
+        
+    }
