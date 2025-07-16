@@ -2,17 +2,6 @@
 
 This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Live Demo](#live-demo)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 
 This is a simple and clean recipe page built with semantic HTML and modern CSS. The page is fully responsive and visually matches the original design from Frontend Mentor.
