@@ -16,7 +16,7 @@ This is a simple and clean recipe page built with semantic HTML and modern CSS. 
 
 ## 🚀 Live Demo
 
-👉 [Live site URL here](https://github.com/muratkilci067/Recipe-page.git)
+👉 [Live site URL here](https://muratkilci067.github.io/Recipe-page/)
 
 ---
 
